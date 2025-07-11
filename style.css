@@ -97,4 +97,54 @@
 }
 
 
+.stats-section {
+    margin-top: 116px;
+    display: flex;
+    justify-content: center;
+}
 
+
+.stats-container {
+    background-color: #4E47FF10; 
+    border-radius: 7px;
+    padding: 50px 145px;
+    width: 1140px;
+    height: 306px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.stats-heading {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    color: #252432;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+
+.stats-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+
+.item {
+      text-align: center;
+}
+.value {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 80px;
+        color: #4E47FF;
+}
+
+/* variable of the hlighted values*/
+.Z {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #252432;
+}
