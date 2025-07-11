@@ -1,3 +1,13 @@
+.animation-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.footer-links a:hover {
+    color: #4E47FF;
+}
+
+
 .primary-clr {
     color: #4E47FF;
 }
@@ -10,6 +20,7 @@
     font-weight: bold;
     border-radius: 7px;
     border: none;
+    cursor: pointer;
 }
 
 .hero {
@@ -214,7 +225,130 @@
     padding-bottom: 9px;
 }
 
-.animation-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+.form {
+    margin-top: 92px;
+    padding: 0 150px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.form-text-h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 97px;
+    color: #000000;
+    width: 528px;
+    height: 232px;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.contact-form-label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+}
+
+.contact-form-input {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    padding: 20px 32px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 497px;
+}
+
+.contact-form-textarea {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    padding: 20px 32px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 497px;
+}
+
+.contact-form-input {
+    height: 70px;
+}
+
+.contact-form-textarea {
+    height: 135px;
+    resize: none;
+}
+
+.contact-form-button {
+    width: 497px;
+    height: 135px;
+
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+}
+
+
+.footer {
+    background-color: #00000010;
+    margin: 0;
+    padding: 104px 0 80px;
+}
+
+.footer-box {
+    width: 531px;
+    height: 221px;
+    margin: 0 auto;
+    padding: 0 454px;
+    text-align: center;
+}
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #4E47FF;
+    margin: 0;
+    line-height: 1.1;
+}
+
+.footer-desc {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8987A1;
+    margin: 20px 0 30px;
+    max-width: 531px;
+    height: 48px;
+    line-height: 1.6;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    transition: 0.2s ease;
 }
